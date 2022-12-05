@@ -116,3 +116,61 @@ color: #000000;
     left: 1280px;
     top: 35px;
 }
+.allcontent{
+   width: 1440px; 
+   height: auto;
+   background-color: #dadada;
+}
+.titletext{
+    display: flex;
+}
+.titlehead{
+    position: absolute;
+    width: 557px;
+    height: 212px;
+    left: 361px;
+    top: 173px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #121212;
+}
+.minititle{
+    position: absolute;
+    width: 330px;
+    height: 23px;
+    left: 360px;
+    top: 421px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #838383;
+
+}
+.browsebtn{
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    width: 103px;
+    height: 40px;
+    left: 361px;
+    top: 490px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+}
+.products{
+    display: flex;
+}
