@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+*{
+    margin: 0 auto;
+}
+.body{
+    max-width: 1899px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    padding: 20px;
+    width: auto;
+    height: 40px;
+    background-color: black;
+    display: flex;
+}
+.header1{
+    position: relative;
+    width: 1400px;
+    height: 36px;
+    display: flex;
+}
+.logo{
+    margin-left: 0;
+    margin-right: 0px;
+    width: 40px;
+    height: 40px;
+}
+.logoimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo-title{
+    color: white;
+    font-family: 'Trade Winds', cursive;
+    margin-left: 5px;
+    margin-right: 0px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.logo-title-text{
+    width: 140px;
+    height: 35px;
+}
+.links{
+    display: flex;
+    color: white;
+    font-family: 'roboto', helvetica, sans-serif;
+    margin-right: 5px;
+}
+.home{
+    padding: 5px;
+}
+.products{
+    padding: 5px;
+}
+.about{
+    padding: 5px;
+}
+.login{
+    font-family: 'roboto', helvetica, sans-serif;
+    color: white;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 5px;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    margin: 40px 80px;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px ;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0 , 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position:relative;
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0 , 0.06);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0 ;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#product1 .pro .des h5{
+    padding-top:7px ;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+#product1 .pro .des #cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.iconbasket{
+    color: white;
+    margin: 0;
+    padding-top: 7px;
+}
+.footer{
+    background-color: #ECECF2;
+    margin-top: 100px;
+    bottom: 0;
+}
+.footer-p{
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 18px; 
+    color: #6581A1; 
+    margin-left: 40px
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+.social__icon{
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #00000080;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow:hidden;
+}
+.social__icon i{
+    font-size: 26px;
+    color: #67798e;
+    transition: all 0.3s ease;
+    z-index: 1;}
+.social__icon::after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    transform: translate(0, 70px);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.social__icon.instagram:after{
+    background-color: #833AB4;
+}
+.social__icon.facebook:after{
+    background-color: #3b5998;
+}
+.social__icon.git:after{
+    background-color: #333;
+}
+.social__icon.twitter:after{
+    background-color: #00acee;
+}
+.social__icon.linkedin:after{
+    background-color: #0e76a8;
+}
+.social__icon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px #00000080;
+}
+.social__icon:hover i{
+    color: #fff;
+}
+.social__icon:hover:after{
+    transform: translate(0);
+}
+.end{
+    font-size: 18px;
+    color: #6581A1;
+}
+.qw{
+    display: flex;
+    justify-content: space-around;
+}
