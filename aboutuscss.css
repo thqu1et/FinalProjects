@@ -44,7 +44,7 @@ html {
   color: grey;
 }
 
-.button {
+a {
   border: none;
   outline: 0;
   display: inline-block;
@@ -54,9 +54,10 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  text-decoration: none;
 }
 
-.button:hover {
+a:hover {
   background-color: #555;
 }
 
@@ -70,7 +71,7 @@ html {
   margin: 0 auto;
 }
 .header{
-  padding: 20px;
+  padding: 10px;
   width: auto;
   height: 90px;
   background-color: black;
@@ -108,6 +109,12 @@ html {
   width: 140px;
   height: 35px;
 }
+.aboutus{
+  padding-bottom: 10px;
+}
+.bi .bi-person-fill{
+  margin-top: 10px;
+}
 .links{
   display: flex;
   color: white;
@@ -129,6 +136,7 @@ html {
   margin-left: 0px;
   margin-right: 50px;
   padding: 5px;
+  display: flex;
 }
 .loginlink{
   color: white;

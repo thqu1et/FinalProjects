@@ -46,6 +46,10 @@ a{
     width: 140px;
     height: 35px;
 }
+.loginlink{
+    color: white;
+    text-decoration: none;
+  }
 .links{
     display: flex;
     color: white;
@@ -67,6 +71,7 @@ a{
     margin-left: 0px;
     margin-right: 50px;
     padding: 5px;
+    display: flex;
 }
 
 .prev, .next {

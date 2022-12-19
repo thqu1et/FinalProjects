@@ -3,63 +3,81 @@
     margin: 0 auto;
 }
 .header{
-    padding: 20px;
+    padding: 10px;
     width: auto;
-    height: 40px;
+    height: 70px;
     background-color: black;
     display: flex;
-}
-.header1{
+  }
+  .header1{
     position: relative;
     width: 1400px;
     height: 36px;
     display: flex;
-}
-.logo{
+    padding: 10px;
+  }
+  .logo{
+    padding-top: 0px;
     margin-left: 0;
     margin-right: 0px;
     width: 40px;
     height: 40px;
-}
-.logoimg{
+  }
+  .logoimg{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-}
-.logo-title{
+  }
+  .logo-title{
     color: white;
     font-family: 'Trade Winds', cursive;
     margin-left: 5px;
     margin-right: 0px;
     font-size: 24px;
     margin-top: 5px;
-}
-.logo-title-text{
+    padding-bottom: 5px;
+  }
+  .logo-title-text{
     width: 140px;
     height: 35px;
-}
-.links{
+  }
+  .aboutus{
+    padding-bottom: 10px;
+  }
+  .bi .bi-person-fill{
+    margin-top: 10px;
+  }
+  .links{
     display: flex;
     color: white;
     font-family: 'roboto', helvetica, sans-serif;
     margin-right: 5px;
-}
-.home{
+    padding-top: 5px;
+  }
+  .home{
     padding: 5px;
-}
-.products{
+  }
+  .products{
     padding: 5px;
-}
-.about{
+  }
+  .about{
     padding: 5px;
-}
-.login{
+  }
+  .login{
     font-family: 'roboto', helvetica, sans-serif;
     color: white;
     margin-left: 0px;
     margin-right: 50px;
     padding: 5px;
-}
+    display: flex;
+  }
+  .loginlink{
+    color: white;
+    text-decoration: none;
+  }
+.aboutus{
+    padding-top: 5px;
+}  
 .all-content{
     width: 1920px;
     height: 600px;
