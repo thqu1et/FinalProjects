@@ -1,12 +1,6 @@
-
 var  nav = document.getElementById('nav');
       
       window.onscroll = function(){
-
-    var $cont = document.querySelector('.cont');
-var $elArr = [].slice.call(document.querySelector('.el'));
-var $closeBtnArr = [].slice.call(document.querySelector('.el__close-btn'));
-
 
       	if (window.pageYOffset >100) {
 

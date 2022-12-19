@@ -98,7 +98,7 @@ overflow: hidden;
   position: absolute;
   left: 350px;
   top: 130px;
-  color: white;
+  color: red;
   font-weight: bold;
   font-size: 55px;
   letter-spacing: 2px;
@@ -109,7 +109,7 @@ position: absolute;
 left: 290px;
 top: 220px;
 font-size: 30px;
-color: white;
+color: black;
 letter-spacing: 1.5px;
 text-shadow: 2px 1px 2px #6D6D6D, 0 0 1em #6D6D6D;
 }
@@ -231,11 +231,10 @@ transition: 2s;
 }
 
 .slide img{
-width: 100vw;
-height: 100vh;
-
+width: 1899px;
+height: 1000px;
 }
-C:\Users\askar\OneDrive\Документы\GitHub\FinalProjects\photograpy\huaweisteklo.webp
+
 
 /*css for manual slide navigation*/
 
@@ -294,6 +293,9 @@ background: #6D6D6D;
 #radio4:checked ~ .navigation-auto .auto-btn4{
 background: #6D6D6D;
 }
+
+
+
 .footer{
     background-color: #ECECF2;
     margin-top: 100px;
