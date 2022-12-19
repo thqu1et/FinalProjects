@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 var  nav = document.getElementById('nav');
       
       window.onscroll = function(){
+=======
+    var $cont = document.querySelector('.cont');
+var $elArr = [].slice.call(document.querySelector('.el'));
+var $closeBtnArr = [].slice.call(document.querySelector('.el__close-btn'));
+>>>>>>> 544f77aa749fccdba2d2c91da2d07c819a53741c
 
       	if (window.pageYOffset >100) {
 
