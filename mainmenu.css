@@ -130,10 +130,10 @@ body{
     display: flex;
 }
 .titlehead{
-    position: absolute;
+    position: relative;
     width: 557px;
     height: 212px;
-    left: 161px;
+    left: px;
     top: 173px;
 
     font-family: 'Roboto';
@@ -271,4 +271,18 @@ body{
 
     color: #000000;
 }
+.price1{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    padding-top: 75px;
 
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #838383;
+}
