@@ -166,7 +166,64 @@ const data=[
     name: 'AX7 case',
   price: 3000  ,
   itemInCart: false
+ },
+ {
+    id: 24 ,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4h-KenRi8mq5IQsTnuXwIv057kpj59Co7g&usqp=CAU',
+    name: ' Колонки Bluetooth JBL Charge 5, Green (JBLCHARGE5GRN)',
+    price:22000  ,
+    itemInCart:false
+ },
+ {
+    id: 25 ,
+    img: 'https://c.dns-shop.ru/thumb/st1/fit/300/300/7be6907b754bd3fc0f403771eea17eaa/16b6aef0c36cad0581a15a5e710bb8c866f85fb43c5239d3b2cc8f6cd9be7aba.jpg',
+    name: 'Калонки для компьютера',
+    price: 16000 ,
+    itemInCart:false
+ },
+ {
+    id: 26 ,
+    img: 'https://cheap-top.com/image/cache/data/Hopestar%20H32/HTB1emQsafvsK1RjSspdq6AZepXaU-1000x1000.jpg',
+    name: 'Вода непроницаемая калонка',
+    price:  21000,
+    itemInCart:false
+ },
+ {
+    id: 27 ,
+    img: 'https://frankfurt.apollo.olxcdn.com/v1/files/ep4cd6upt8qb1-KZ/image;s=644x461',
+    name: 'миникалонка',
+    price: 15000 ,
+    itemInCart:false
+ },
+ {
+    id: 28 ,
+    img: 'https://i.ebayimg.com/images/g/dz4AAOSwmuhesjic/s-l1600.jpg',
+    name: 'Умная калонка',
+    price: 11000 ,
+    itemInCart:false
+ },
+ {
+    id: 29 ,
+    img: 'https://spb-applestore.ru/image/catalog/homepod/white/homepodwhite_2.jpg',
+    name: 'Умная калонка ',
+    price: 15000 ,
+    itemInCart:false
+ },
+ {
+    id: 30 ,
+    img: 'https://images.squarespace-cdn.com/content/v1/6096f09da6b2e83d6597a1e0/1636738099326-3A4AOLK95HPT4UQA5UFZ/31cL3Z6RXgL._AC_US1500_.jpg',
+    name: 'Умная Колонка Яндекс.Станция 2, Чёрная (YNDX-00051 Black)',
+    price:  14500,
+    itemInCart:false
+ },
+ {
+    id: 31 ,
+    img: 'https://images.biggeek.ru/1/435/6391/12817-778JBL_LINK_PORTABLE_BLACK_BACK_1605x1605px.png.jpg',
+    name: 'Умная колонка с Алисой JBL Link Portable Yandex',
+    price: 23000 ,
+    itemInCart:false
  }
+
 ];
 let cartList=[]; 
 var i;
@@ -182,11 +239,11 @@ var addToCarts = document.querySelectorAll('#cart')
 var cart = document.getElementById('cart-link');
 
 
-cart.addEventListener('click',displayCart)
+cart.addEventListener('click',displayCart);
 
 var carts = document.getElementById('carts');
 
-carts.addEventListener('click',()=>addToCart(getId))
+carts.addEventListener('click',()=>addToCart(getId));
 
 var home = document.getElementById('logo');
 

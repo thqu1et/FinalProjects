@@ -1,0 +1,229 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #ff0000;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+*{
+  margin: 0 auto;
+}
+.header{
+  padding: 10px;
+  width: auto;
+  height: 90px;
+  background-color: black;
+  display: flex;
+}
+.header1{
+  position: relative;
+  width: 1400px;
+  height: 36px;
+  display: flex;
+  padding: 10px;
+}
+.logo{
+  padding-top: 0px;
+  margin-left: 0;
+  margin-right: 0px;
+  width: 40px;
+  height: 40px;
+}
+.logoimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.logo-title{
+  color: white;
+  font-family: 'Trade Winds', cursive;
+  margin-left: 5px;
+  margin-right: 0px;
+  font-size: 24px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+.logo-title-text{
+  width: 140px;
+  height: 35px;
+}
+.aboutus{
+  padding-bottom: 10px;
+}
+.bi .bi-person-fill{
+  margin-top: 10px;
+}
+.links{
+  display: flex;
+  color: white;
+  font-family: 'roboto', helvetica, sans-serif;
+  margin-right: 5px;
+}
+.home{
+  padding: 5px;
+}
+.products{
+  padding: 5px;
+}
+.about{
+  padding: 5px;
+}
+.login{
+  font-family: 'roboto', helvetica, sans-serif;
+  color: white;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 5px;
+  display: flex;
+}
+.loginlink{
+  color: white;
+  text-decoration: none;
+}
+
+.footer{
+  padding-top: 20px;
+  width: auto;
+  height: 80px;
+  background-color: #ECECF2;
+
+  
+}
+.footer-p{
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 18px; 
+  color: #6581A1; 
+  margin-left: 40px
+}
+.social{
+  display: flex;
+  justify-content: flex-end;
+}
+.social__icon{
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #00000080;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow:hidden;
+}
+.social__icon i{
+  font-size: 26px;
+  color: #67798e;
+  transition: all 0.3s ease;
+  z-index: 1;}
+.social__icon::after{
+  content: "";
+  width: 70px;
+  height: 70px;
+  position:absolute;
+  transform: translate(0, 70px);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.social__icon.instagram:after{
+  background-color: #833AB4;
+}
+.social__icon.facebook:after{
+  background-color: #3b5998;
+}
+.social__icon.git:after{
+  background-color: #333;
+}
+.social__icon.twitter:after{
+  background-color: #00acee;
+}
+.social__icon.linkedin:after{
+  background-color: #0e76a8;
+}
+.social__icon:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px #00000080;
+}
+.social__icon:hover i{
+  color: #fff;
+}
+.social__icon:hover:after{
+  transform: translate(0);
+}
+.end{
+  font-size: 18px;
+  color: #6581A1;
+}
+.qw{
+  display: flex;
+  justify-content: space-around;
+}
+.loginlink{
+  text-decoration: none;
+  color: white;
+}
