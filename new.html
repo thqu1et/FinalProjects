@@ -19,22 +19,25 @@
             <div class="logo-title">
                 <span class="logo-title-text">Yumi <span style="color: red;">Stek</span></span>
             </div>
-            <input type="checkbox" id="toggler">
-            <label for="toggler"><i class="ri-menu-line"></i></label>
+            <div class="navb">
+            <label class="tri" for="toggle">&#9776;</label> 
+            </div>
+             <input type="checkbox" name="" id="toggle" checked>
             <div class="menu">
-            <ul class="list">
-                <li class="home"><a class="loginlink" href="new.html">Главная</a></li>
-                <li class="products"><a class="loginlink" href="shop.html"> Товары</a></li>
+            <div class="list">
+                <div class="home"><a class="loginlink" href="new.html">Главная</a></div>
+                <div class="products"><a class="loginlink" href="shop.html"> Товары</a></div>
                 <i class="before" style="display: inline;"></i>
-                <li class="about"><a class="loginlink" href="index.html">Новости</a></li>
-                <li class="about"><a href="aboutuss.html" class="loginlink">О нас</a></li>
-            </ul>
-        </div>
+                <div class="about"><a class="loginlink" href="index.html">Новости</a></div>
+                <div class="about"><a href="aboutuss.html" class="loginlink">О нас</a></div>
+                </div>
         <div class="login">
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
           </svg>
-        <div class="aboutus"><a class="loginlink" href="login6.html">Вход</a></div>
+        <div class="aboutus"><a class="loginlink" href="login6.html">Вход</a>
+        </div>
+    </div>
       </div>
       </div>
       </nav>
@@ -122,5 +125,24 @@
             © 2022
         </p>
     </div>
+    <script>
+    var  nav = document.getElementById('nav');
+      
+        window.onscroll = function(){
+  
+         if (window.pageYOffset >100) {
+  
+          nav.style.background = " #333";
+          
+         }
+         else{
+          nav.style.background = "transparent";
+          nav.style.boxShadow = "none";
+         }
+        }
+        var counter = 1;
+        function plusSlides(n) {
+          showSlides(counter += n);
+        }</script>
 </body>
 </html>

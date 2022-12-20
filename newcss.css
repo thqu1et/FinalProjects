@@ -199,6 +199,9 @@
     font-size: 25px;
     color: white;
 }
+.menu{
+    display: flex;
+}
 .submit{
     padding-left: 10px;
     background-color: black;
@@ -338,6 +341,24 @@
         width: 30px;
         height: 30px;
     }
+    .products1{
+        padding-left: 50px;
+    }
+    .login{
+        margin-right: 0px;
+    }
+    .header1{
+        margin-top: -20px;
+    }
+    .logo-title-text{
+        font-size: 14px
+        
+    }
+    .logo-title{
+        display: flex;
+        width: 100px;
+
+    }
 }
 @media(max-width:400px){
     .background{
@@ -368,6 +389,50 @@
     .logoimg{
         display: none;
     }
+    #toggle:checked + .menu{
+        display: none; 
+      }
+  .menu {
+      align-items: center;
+    }
+    .list{
+      background-color: #00000080;
+      left: 0;
+      top: 25px;
+      align-items: center;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footer{
+        width: 400px;
+    }
+    .social__icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #toggle:checked + .header{
+      max-height: 280px;
+    }
+    .navb{
+      margin-right: 0px;
+      }
+      .tri {
+        float: right;
+        font-size: 25px;
+        cursor: pointer;
+      }
+      .aboutus{
+        margin-left: 0px;
+      }
+      .bi-person-fill{
+        margin-right: 0px;
+      }
+      .end{
+        display: none;
+      }
 
 }
 .header{
@@ -378,32 +443,18 @@
     color: white;
 }
 .list{
-    list-style: none;
     display: flex;
-    gap: 25px;
+    
 }
 #toggler, header label{
     display: none;
 }
-@media screen and (max-width:600px) {
-    .menu{
-        width: 100%;
-        max-height: 80px;
-        overflow: hidden;
-        color: white;
-    }
-    .list{
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-    .header label{
-        display: inline-flex;
-        align-items: center;
-        cursor: pointer;
-    }
-    #toggler:checked ~ .menu{
-        max-height: 100%;
-    }
+@media(max-width:700px) {
     
 }
+   #toggle{
+        display:none;
+        }
+   .navb{
+    display: block  ;
+   }

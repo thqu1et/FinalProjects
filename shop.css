@@ -583,3 +583,178 @@ p{
 #you-saved{
     color: rgb(101, 99, 102);
 }
+@media(max-width:800px){
+    .header{
+        max-width: 800px;
+    }
+    .header1{
+        width:700px
+    }
+    .background{
+        width: 800px;
+    }
+    .title{
+        margin-left: 100px;
+        width: 700px ;
+    }
+    .minititle{
+        margin-left: 100px;
+    }
+    .buy{
+        margin-left: 100px;
+    }
+    .products1{
+        width: 800px;
+    }
+    .product1{
+        width: 180px;
+    }
+    .product2{
+        width: 180px;
+    }
+    .product3{
+        width: 180px;
+    }
+    .product4{
+        width: 180px;
+    }
+    .imgproduct{
+        width: 125px;
+        height: 105px;
+    }
+    .rectext{
+        margin-left: 100px;
+    }
+    .footer{
+        width: 800px;
+    }
+    .social__icon{
+        width: 30px;
+        height: 30px;
+    }
+    .products1{
+        padding-left: 50px;
+    }
+    .login{
+        margin-right: 0px;
+    }
+    .header1{
+        margin-top: -20px;
+    }
+    .logo-title-text{
+        font-size: 14px
+        
+    }
+    .logo-title{
+        display: flex;
+        width: 100px;
+
+    }
+}
+@media(max-width:400px){
+    .background{
+        max-width: 400px;
+    }
+    .header{
+        max-width: 400px;
+    }
+    .header1{
+        width: 380px;
+    }
+    .title{
+        margin-left: 20px;
+        width: 380px;
+    }
+    .minititle{
+        margin-left: 20px;
+    }
+    .buy{
+        margin-left: 20px;
+    }
+    .onas{
+        margin-top: -20px;
+    }
+    .rec{
+        display: none;
+    }
+    .logoimg{
+        display: none;
+    }
+    #toggle:checked + .menu{
+        display: none; 
+      }
+  .menu {
+      align-items: center;
+    }
+    .list{
+      background-color: #00000080;
+      left: 0;
+      top: 25px;
+      align-items: center;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footer{
+        width: 400px;
+    }
+    .social__icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #toggle:checked + .header{
+      max-height: 280px;
+    }
+    .navb{
+      margin-right: 0px;
+      color: white;
+      }
+      .tri {
+        color: white;
+        float: right;
+        font-size: 25px;
+        cursor: pointer;
+      }
+      .aboutus{
+        margin-left: 0px;
+      }
+      .bi-person-fill{
+        margin-right: 0px;
+      }
+      .end{
+        display: none;
+      }
+
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.list{
+    display: flex;
+    
+}
+#toggler, header label{
+    display: none;
+}
+@media(max-width:700px) {
+    
+}
+   #toggle{
+        display:none;
+        }
+   .navb{
+    color: black;
+    display: block;
+   }
+   .tri{
+    color: black;
+   }
+   label{
+    color: black;
+   }
