@@ -7,12 +7,14 @@
     <title>Shop</title>
     <link rel="stylesheet" href="shop.css">
     <script src="https://kit.fontawesome.com/d91b5bb322.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Mina&family=Montserrat:wght@600&family=Poppins:wght@400;500&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <div class="header1">
             <div class="logo">
-                <img class="logoimg" src="image/logoyumi.jpg" alt="">
+                <img class="logoimg" src="image/logoyumi.jpg" alt="" id="logo">
             </div>
             <div class="logo-title">
                 <span class="logo-title-text">Yumi <span style="color: red;">Stek</span></span>
@@ -30,10 +32,13 @@
           </svg>
         <a class="loginlink" href="login6.html">Вход</a>
     </div>
-    <div class="iconbasket"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+    <div class="iconbasket">
+        <a href="#" id="cart-link"><i class="fa fa-shopping-cart"></i></a>
+    </div>
+    <!-- <a href="cart.html"></a> -->
     </div>
     </div>
-
+<main id="main">
     <section id="product1" class="section-p1">
         <h2>
             Наушники
@@ -42,13 +47,13 @@
             колекция наушников на данный момент.
         </p>
         <div class="pro-container">
-            <div class="pro">
-                <img src="https://image.made-in-china.com/2f0j00ecSGzNZBQWkA/Air-Gen2-Generation-1-1-Earphone-Wireless-Headset-for-Air-2.jpg" alt="1">
+            <div class="pro" id="0">
+                <img src="https://image.made-in-china.com/2f0j00ecSGzNZBQWkA/Air-Gen2-Generation-1-1-Earphone-Wireless-Headset-for-Air-2.jpg" alt="1" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         AirPods collection 2 version
                     </h5>
                     <div class="star">
@@ -57,21 +62,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         12.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_83_1937_0_6.png" alt="2">
+            <div class="pro"  id="1">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_83_1937_0_6.png" alt="2" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         AirPods collection 3 version
                     </h5>
                     <div class="star">
@@ -80,21 +85,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         16.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://ae01.alicdn.com/kf/Ha122eab4fe2b4d18b00a59c7bd38988ao/Apple-Airpods-i-in-Pro-kablosuz-kulakl-k-hava-bakla-Pod-Pro.png" alt="3">
+            <div class="pro"  id="2">
+                <img src="https://ae01.alicdn.com/kf/Ha122eab4fe2b4d18b00a59c7bd38988ao/Apple-Airpods-i-in-Pro-kablosuz-kulakl-k-hava-bakla-Pod-Pro.png" alt="3" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         AirPods collection pro version
                     </h5>
                     <div class="star">
@@ -103,21 +108,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         20.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://avatars.mds.yandex.net/i?id=4a744345808f4f5e80eeb5fc15e3df7e525993e6-7020937-images-thumbs&n=13" alt="4">
+            <div class="pro"  id="3">
+                <img src="https://avatars.mds.yandex.net/i?id=4a744345808f4f5e80eeb5fc15e3df7e525993e6-7020937-images-thumbs&n=13" alt="4" id="card-img">
                 <div class="des">
                     <span>
                         Sumsung
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Galaxy buds version
                     </h5>
                     <div class="star">
@@ -126,21 +131,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         10.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://gadgety.ru/upload/resizer2/24/090/0907293e70330f91f0ea525189acece5.jpg" alt="5">
+            <div class="pro"  id="4">
+                <img src="https://gadgety.ru/upload/resizer2/24/090/0907293e70330f91f0ea525189acece5.jpg" alt="5" id="card-img">
                 <div class="des">
                     <span>
                         Xiaomi
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Airdots collection  version
                     </h5>
                     <div class="star">
@@ -149,21 +154,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         7.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_83_1946_2_1.jpg" alt="6">
+            <div class="pro"  id="5">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_83_1946_2_1.jpg" alt="6" id="card-img">
                 <div class="des">
                     <span>
                         JBL
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         JBLT710BTBLK Black 
                     </h5>
                     <div class="star">
@@ -172,21 +177,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         30.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://ardes.bg/uploads/original/jbl-e25bt-cherven-200452.jpg" alt="7">
+            <div class="pro"  id="6">
+                <img src="https://ardes.bg/uploads/original/jbl-e25bt-cherven-200452.jpg" alt="7" id="card-img">
                 <div class="des">
                     <span>
                         JBL
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Live
                     </h5>
                     <div class="star">
@@ -197,19 +202,19 @@
                     </div>
                     <h4>
                         7.500 тг.
-                    </h4>
+                    </h4 id="item-price">
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://sc04.alicdn.com/kf/Hffa69600cb944375b628ae403196c4ab9.jpg" alt="8">
+            <div class="pro"  id="7">
+                <img src="https://sc04.alicdn.com/kf/Hffa69600cb944375b628ae403196c4ab9.jpg" alt="8" id="card-img">
                 <div class="des">
                     <span>
                         Lenovo
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         LivePods collection  version
                     </h5>
                     <div class="star">
@@ -218,11 +223,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         8.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
@@ -237,13 +242,13 @@
             колекция акссесуаров для сьемок.
         </p>
         <div class="pro-container">
-            <div class="pro">
-                <img src="https://avatars.mds.yandex.net/get-marketpic/4642727/pic1be7a05d561ed3c6f263f03bb6fdb0d8/orig" alt="1">
+            <div class="pro"  id="8">
+                <img src="https://avatars.mds.yandex.net/get-marketpic/4642727/pic1be7a05d561ed3c6f263f03bb6fdb0d8/orig" alt="1" id="card-img">
                 <div class="des">
                     <span>
                         Borofone
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         DI02
                     </h5>
                     <div class="star">
@@ -252,21 +257,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         20.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://videoset.kz/wp-content/uploads/2018/07/BOYA-by-wm4-Canon-Nikon-768x768.jpg" alt="2">
+            <div class="pro"  id="9">
+                <img src="https://videoset.kz/wp-content/uploads/2018/07/BOYA-by-wm4-Canon-Nikon-768x768.jpg" alt="2" id="card-img">
                 <div class="des">
                     <span>
                         Boya
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         BY-WM4
                     </h5>
                     <div class="star">
@@ -275,21 +280,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         36.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://ts2.shop/3787-large_default/компактный-стабилизатор-dji-rsc-2.jpg" alt="3">
+            <div class="pro"  id="10">
+                <img src="https://ts2.shop/3787-large_default/компактный-стабилизатор-dji-rsc-2.jpg" alt="3" id="card-img">
                 <div class="des">
                     <span>
                         DJI
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         RSC 2
                     </h5>
                     <div class="star">
@@ -298,21 +303,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         40.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://ts2.shop/4210-large_default/профессиональный-штатив-agm-с-рукояткой.jpg" alt="4">
+            <div class="pro"  id="11">
+                <img src="https://ts2.shop/4210-large_default/профессиональный-штатив-agm-с-рукояткой.jpg" alt="4" id="card-img">
                 <div class="des">
                     <span>
                         ПРОФЕССИОНАЛЬНЫЙ ШТАТИВ
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         AGM
                     </h5>
                     <div class="star">
@@ -321,21 +326,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         25.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_58_22_0.jpg" alt="5">
+            <div class="pro"  id="12">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_58_22_0.jpg" alt="5" id="card-img">
                 <div class="des">
                     <span>
                         Tripod
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Continent C1
                     </h5>
                     <div class="star">
@@ -344,21 +349,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         15.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://sc01.alicdn.com/kf/Hf81b5eb91c6a458ea7832d542494953aY/231046036/Hf81b5eb91c6a458ea7832d542494953aY.jpg" alt="6">
+            <div class="pro"  id="13">
+                <img src="https://sc01.alicdn.com/kf/Hf81b5eb91c6a458ea7832d542494953aY/231046036/Hf81b5eb91c6a458ea7832d542494953aY.jpg" alt="6" id="card-img">
                 <div class="des">
                     <span>
                         Light
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Asik Black 
                     </h5>
                     <div class="star">
@@ -367,21 +372,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         30.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://photodelo.kz/image/catalog/photos/video-svet/kolcevye-lampy/lf-r480-led-kit/kolcevojosvetitellf-r480led-15.jpg" alt="7">
+            <div class="pro"  id="14">
+                <img src="https://photodelo.kz/image/catalog/photos/video-svet/kolcevye-lampy/lf-r480-led-kit/kolcevojosvetitellf-r480led-15.jpg" alt="7" id="card-img">
                 <div class="des">
                     <span>
                         Light
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         LF-R480
                     </h5>
                     <div class="star">
@@ -390,21 +395,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         11.500 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://www.cined.com/content/uploads/2019/04/Rode-wireless-go-1.jpg" alt="8">
+            <div class="pro"  id="15">
+                <img src="https://www.fotoshopping.info/sites/default/files/tovar/44.jpg" alt="8" id="card-img">
                 <div class="des">
                     <span>
                         Berchrit
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         wireless
                     </h5>
                     <div class="star">
@@ -413,11 +418,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         35.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
@@ -432,13 +437,13 @@
             колекция чехолы на данный момент.
         </p>
         <div class="pro-container">
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_3880_0_1.jpg" alt="1">
+            <div class="pro"  id="16">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_3880_0_1.jpg" alt="1" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         iPhone 14 Silicone Case with MagSafe
                     </h5>
                     <div class="star">
@@ -447,21 +452,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         22.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://api.fmobile.kz/image//media/sale/image/240062304-w640-h640-chehol-dlya-apple.png" alt="2">
+            <div class="pro"  id="17">
+                <img src="https://api.fmobile.kz/image//media/sale/image/240062304-w640-h640-chehol-dlya-apple.png" alt="2" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Apple iPhone 13 Pro Clear Case with MagSafe
                     </h5>
                     <div class="star">
@@ -470,21 +475,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         16.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://api.fmobile.kz/image//media/sale/image/red_YeQLo74.png" alt="3">
+            <div class="pro"  id="18">
+                <img src="https://api.fmobile.kz/image//media/sale/image/red_YeQLo74.png" alt="3" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Iphone 11 Red
                     </h5>
                     <div class="star">
@@ -493,21 +498,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         2.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_3870_0_6.png" alt="4">
+            <div class="pro"  id="19">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_3870_0_6.png" alt="4" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         iPhone 14 Pro Max Leather Case with MagSafe
                     </h5>
                     <div class="star">
@@ -516,21 +521,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         15.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_2981_1_6.png" alt="5">
+            <div class="pro"  id="20">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_2981_1_6.png" alt="5" id="card-img">
                 <div class="des">
                     <span>
                         Samsung
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Galaxy S22+ Silicone Cover
                     </h5>
                     <div class="star">
@@ -539,21 +544,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         7.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_3018_4_1.jpg" alt="6">
+            <div class="pro" id="21">
+                <img src="https://object.pscloud.io/cms/cms/Photo/img_0_81_3018_4_1.jpg" alt="6" id="card-img">
                 <div class="des">
                     <span>
                         Samsung
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Galaxy A33 Card Slot Cover 
                     </h5>
                     <div class="star">
@@ -562,21 +567,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         5.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://ae01.alicdn.com/kf/HTB1tjARNjTpK1RjSZKPq6y3UpXaI/Xiaomi-mi-9-3.jpg" alt="7">
+            <div class="pro"  id="22">
+                <img src="https://ae01.alicdn.com/kf/HTB1tjARNjTpK1RjSZKPq6y3UpXaI/Xiaomi-mi-9-3.jpg" alt="7" id="card-img">
                 <div class="des">
                     <span>
                         Xiaomi
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Redmi 10X 5G
                     </h5>
                     <div class="star">
@@ -585,21 +590,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         4.500 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img src="https://lastprint.ru/image/constructor_avatar_cache/product_195407_1430_0_0.jpg" alt="8">
+            <div class="pro"  id="23">
+                <img src="https://lastprint.ru/image/constructor_avatar_cache/product_195407_1430_0_0.jpg" alt="8" id="card-img">
                 <div class="des">
                     <span>
                         Oppo
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         AX7 case
                     </h5>
                     <div class="star">
@@ -608,11 +613,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         3.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
@@ -620,6 +625,9 @@
     </section>
 
 
+
+
+    
     <section id="product1" class="section-p1">
         <h2>
             Калонки
@@ -628,13 +636,13 @@
             колекция калонки на данный момент.
         </p>
         <div class="pro-container">
-            <div class="pro">
-                <img style="width: 399.969px; height: 399.969px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4h-KenRi8mq5IQsTnuXwIv057kpj59Co7g&usqp=CAU" alt="1">
+            <div class="pro" id="24">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4h-KenRi8mq5IQsTnuXwIv057kpj59Co7g&usqp=CAU" alt="1" id="card-img">
                 <div class="des">
                     <span>
                         JBL
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Колонки Bluetooth JBL Charge 5, Green (JBLCHARGE5GRN)
                     </h5>
                     <div class="star">
@@ -643,21 +651,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         22.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img style="width: 399.969px; height: 399.969px;" src="https://c.dns-shop.ru/thumb/st1/fit/300/300/7be6907b754bd3fc0f403771eea17eaa/16b6aef0c36cad0581a15a5e710bb8c866f85fb43c5239d3b2cc8f6cd9be7aba.jpg" alt="2">
+            <div class="pro" id="25">
+                <img src="https://c.dns-shop.ru/thumb/st1/fit/300/300/7be6907b754bd3fc0f403771eea17eaa/16b6aef0c36cad0581a15a5e710bb8c866f85fb43c5239d3b2cc8f6cd9be7aba.jpg" alt="2" id="card-img">
                 <div class="des">
                     <span>
                         DNS
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Калонки для компьютера
                     </h5>
                     <div class="star">
@@ -666,21 +674,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         16.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img style="width: 399.969px; height: 399.969px;" src="https://images.satu.kz/61044297_portativnaya-kolonka-jbl.jpg" alt="3">
+            <div class="pro" id="26">
+                <img src="https://cheap-top.com/image/cache/data/Hopestar%20H32/HTB1emQsafvsK1RjSspdq6AZepXaU-1000x1000.jpg" alt="3" id="card-img">
                 <div class="des">
                     <span>
                         JBL
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Вода непроницаемая калонка
                     </h5>
                     <div class="star">
@@ -689,21 +697,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         21.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img  style="width: 399.969px; height: 399.969px;" src="https://frankfurt.apollo.olxcdn.com/v1/files/ep4cd6upt8qb1-KZ/image;s=644x461" alt="4">
+            <div class="pro" id="27">
+                <img  src="https://frankfurt.apollo.olxcdn.com/v1/files/ep4cd6upt8qb1-KZ/image;s=644x461" alt="4" id="card-img">
                 <div class="des">
                     <span>
                         Калонка
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                        миникалонка
                     </h5>
                     <div class="star">
@@ -712,21 +720,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         15.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img  style="width: 399.969px; height: 399.969px;" src="https://frankfurt.apollo.olxcdn.com/v1/files/bsq7dme1vjl92-KZ/image;s=644x461" alt="5">
+            <div class="pro" id="28">
+                <img  src="https://i.ebayimg.com/images/g/dz4AAOSwmuhesjic/s-l1600.jpg" alt="5" id="card-img">
                 <div class="des">
                     <span>
                         Яндекс
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Умная калонка
                     </h5>
                     <div class="star">
@@ -735,21 +743,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                     11.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
             <div class="pro">
-                <img style="width: 399.969px; height: 399.969px;" src="https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h0d/h01/52127953420318/apple-homepod-mini-cernyj-100983175-1-Container.jpg" alt="6">
+                <img src="https://spb-applestore.ru/image/catalog/homepod/white/homepodwhite_2.jpg" alt="6" id="card-img">
                 <div class="des">
                     <span>
                         Apple
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Умная калонка 
                     </h5>
                     <div class="star">
@@ -758,21 +766,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         15.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img style="width: 399.969px; height: 399.969px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnoWPcflxDb2hVoGShtflYMaESw1VbQ9nF5AOrEnmWCMj8OopRJ83shRO-nCjNyfY9LcQ&usqp=CAU" alt="7">
+            <div class="pro" id="30">
+                <img src="https://images.squarespace-cdn.com/content/v1/6096f09da6b2e83d6597a1e0/1636738099326-3A4AOLK95HPT4UQA5UFZ/31cL3Z6RXgL._AC_US1500_.jpg" alt="7" id="card-img">
                 <div class="des">
                     <span>
                         Яндекс
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Умная Колонка Яндекс.Станция 2, Чёрная (YNDX-00051 Black)
                     </h5>
                     <div class="star">
@@ -781,21 +789,21 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         14.500 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
-            <div class="pro">
-                <img style="width: 399.969px; height: 399.969px;" src="https://images.biggeek.ru/1/435/6391/12817-778JBL_LINK_PORTABLE_BLACK_BACK_1605x1605px.png.jpg" alt="8">
+            <div class="pro" id="31">
+                <img src="https://images.biggeek.ru/1/435/6391/12817-778JBL_LINK_PORTABLE_BLACK_BACK_1605x1605px.png.jpg" alt="8" id="card-img">
                 <div class="des">
                     <span>
                         JBL
                     </span>
-                    <h5>
+                    <h5 id="item-name">
                         Умная колонка с Алисой JBL Link Portable Yandex
                     </h5>
                     <div class="star">
@@ -804,16 +812,61 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>
+                    <h4 id="item-price">
                         23.000 тг.
                     </h4>
                     <a href="#">
-                        <i class="fa-regular fa-cart-shopping" id="cart"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
+</main>
+
+    <div id="details-page">
+        <div class="details">
+            <div class="items-detail">
+                <div class="image-container">
+                    <img src="https://uconceptua.com/wp-content/uploads/2019/12/0000452_wallpaper-hexagon.jpeg" alt="" id="details-img">
+                </div>
+                <div class="details-card">
+                    <h2 id="detail-title"></h2>
+                    <h4 id="detail-price">Общая цена : 9000</h4>
+                    <p id="delievery"><strong>Заказ : </strong>Доставка 3 - 4 дня</p>
+                    <button id="carts">Добавить в карзину</button>
+                    <button id="buy">Назад</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div id="cart-container">
+        <p id="cart-title"> <strong>Basket</strong></p id="cart-title">
+        <div id="empty-cart">
+            <h1>Корзина пуста</h1>
+        </div>
+    
+        <div id="cart-with-items">
+            <div class="cart-column">
+                <h3>Товар</h3>
+                <h3>Имя товара</h3>
+                <h3>Цена</h3>
+                <h3>Сумма</h3>
+                <h3>Удалить</h3>
+            </div>
+            <div id="item-body">
+            </div>
+            <div id="total">
+                <h3 id="total-items"></h3>
+                <h2 id="total-amount"></h2>
+            </div>
+        </div>
+    </div>
+
     <div class = "footer">
         <div class="qw">
         <div class="end">
@@ -848,5 +901,6 @@
             © 2022
         </p>
     </div>
+    <script src="shop.js"></script>
 </body>
 </html>
