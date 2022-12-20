@@ -40,14 +40,14 @@
 
 <div class="login-page">
     <div class="form">
-      <form class="register-form" id="register-form">
+      <form class="register-form" id="register-form" action="authentication.php">
         <input type="text" placeholder="Придумайте имя пользователя"/>
         <input type="password" placeholder="Придумайте пароль"/>
         <input type="text" placeholder="Введите вашу почту"/>
         <button>Создать</button>
         <p class="message"> Уже есть аккаунт? <a href="#register-form" onclick="login()">Войти</a></p>
       </form>
-      <form id="loginform">
+      <form id="loginform" action="database.php">
         <input type="text" placeholder="Имя пользователя"/>
         <input type="password" placeholder="Введите пароль"/>
         <button>Войти</button>

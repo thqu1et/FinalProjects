@@ -12,5 +12,4 @@ $('.message a').click(function(){
    let element4 = document.getElementById('loginform')
    element3.style.display = 'none';
    element4.style.display = 'block';
-   
  }
